@@ -1,18 +1,18 @@
 #missing-people{
   margin-top: 5rem;
-  border-bottom: 2px solid #5d5d5a;
+  border-bottom: 2px solid #BDBDBD;
   padding-bottom: 3rem;
 }
 .card-profile{
   column-count: 1;
 }
 .missing-column{
-border: 1px solid #ffa45c;
+border: 1px solid ##00BCD4;
 text-align: center;
 }
 .missingBtn{
-  background-color: #ffa45c;
-  color:#5d5d5a;
+  background-color: #00BCD4;
+  color:#ffffff;
   display: block;
   margin:1rem auto;
 }
@@ -29,8 +29,8 @@ text-align: center;
   margin-top: 3rem;
 }
 .foundBtn{
-  background-color: #5d5d5a;
-  color:#fff4e3;
+  background-color: #9E9E9E;
+  color:#ffffff;
   display: block;
   margin:1rem auto;
 }
@@ -62,11 +62,12 @@ text-align: center;
   font-size:1em;
 }
 .change-bg{
-  background-color: #ffa45c;
+  background-color: #00BCD4;
+  color: #ffffff;
 }
 #testimonials-header{
   text-align: center;
   margin:5rem 0;
-  color: #fff4e3;
-  background-color:#5d5d5a;
+  color: #ffffff;
+  background-color:#9E9E9E;
 }

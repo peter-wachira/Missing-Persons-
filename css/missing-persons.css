@@ -1,0 +1,72 @@
+#missing-people{
+  margin-top: 5rem;
+  border-bottom: 2px solid #5d5d5a;
+  padding-bottom: 3rem;
+}
+.card-profile{
+  column-count: 1;
+}
+.missing-column{
+border: 1px solid #ffa45c;
+text-align: center;
+}
+.missingBtn{
+  background-color: #ffa45c;
+  color:#5d5d5a;
+  display: block;
+  margin:1rem auto;
+}
+.missing-img{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.personDetails, .foundDetails{
+  display: none;
+}
+#found-people{
+  margin-top: 3rem;
+}
+.foundBtn{
+  background-color: #5d5d5a;
+  color:#fff4e3;
+  display: block;
+  margin:1rem auto;
+}
+#test-header {}
+
+.quotationmark {
+  border: none;
+  font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.quotationmark h3 {
+  font-size: 1.5rem;
+}
+
+.quotationmark h3:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 0.1em;
+  color: #5d5d5a;
+}
+.quotationmark h3:after {
+  content: close-quote;
+  visibility: hidden;
+}
+.blockquote-footer{
+  color:#5d5d5a;
+  text-align: right;
+  font-size:1em;
+}
+.change-bg{
+  background-color: #ffa45c;
+}
+#testimonials-header{
+  text-align: center;
+  margin:5rem 0;
+  color: #fff4e3;
+  background-color:#5d5d5a;
+}

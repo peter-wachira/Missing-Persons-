@@ -1,3 +1,10 @@
+.icon-color {
+  color: #00BCD4;
+}
+.btn-search{
+  color:#fff;
+  background-color: #00BCD4;
+}
 #missing-people {
   margin-top: 5rem;
   border-bottom: 2px solid #BDBDBD;
@@ -9,7 +16,7 @@
 }
 
 .missing-column {
-  border: 1px solid ##00BCD4;
+  border: 1px solid #00BCD4;
   text-align: center;
 }
 

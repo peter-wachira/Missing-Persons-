@@ -1,0 +1,53 @@
+body{
+  background-color: #FFFFFF;
+}
+.rep-heading{
+  color: #00BCD4;
+}
+.color-bg{
+background-color: #00BCD4;
+color: white;
+}
+#phot-border{
+  border: 0.1em solid  #B2EBF2 ;
+}
+.first-heading{
+  text-align: center;
+
+}
+#donation-types{
+  margin-top: 5rem;
+}
+
+#first-row-involved{
+  margin-top: 5rem;
+}
+#about-you{
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #00BCD4;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#send-form{
+  margin-left: 40% ;
+  margin-right:40%;
+  width: 20%
+}
+#patanisha{
+  height: 25%;
+  margin-bottom: 1rem;
+}
+.color-icon{
+color: #00BCD4;
+}
+.btn-search{
+background-color: #00BCD4;
+color: white;
+}
+body{
+  font-family: 'Noto Serif SC', serif;
+}
+#report-sighting{
+  margin-top: 5rem;
+}

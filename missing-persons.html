@@ -10,7 +10,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Missing</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -44,7 +44,7 @@
             <a class="nav-link dropdown-toggle" href="missing-persons.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Find Someone
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="missing-persons.html">Missing persons</a>
               <a class="dropdown-item" href="missing-persons#found-people">Found people</a>
               <a class="dropdown-item" href="missing-persons.html#testimonials-header">Testimonials</a>
@@ -54,7 +54,7 @@
             <a class="nav-link dropdown-toggle" href="get-involved.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Get involved
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="get-involved.html#report-sighting">Report Sighting</a>
               <a class="dropdown-item" href="get-involved.html#donation-types">Donations</a>
             </div>
@@ -66,7 +66,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Resources
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Contact Authorities</a>
               <a class="dropdown-item" href="#">Hospitals</a>
               <a class="dropdown-item" href="#">Private investigators</a>
@@ -75,16 +75,16 @@
           </li>
         </ul>
         <li class="nav-link nav-item active">
-          <a href="https://facebook.com/login/" class="fab fa-facebook icon-color"></a>
+          <a href="https://facebook.com/login/" target="_blank" class="fab fa-facebook icon-color"></a>
         </li>
         <li class="nav-link nav-item active">
-          <a href="https://instagram.com/login/" class="icon-color fab fa-instagram"></a>
+          <a href="https://instagram.com/login/" target="_blank" class="icon-color fab fa-instagram"></a>
         </li>
         <li class="nav-link nav-item active">
-          <a href="https://twitter.com/login/ " class="fab icon-color fa-twitter-square"></a>
+          <a href="https://twitter.com/login/" target="_blank" class="fab icon-color fa-twitter-square"></a>
         </li>
         <li id="last-icon" class="nav-link nav-item active">
-          <a href="https://gmail.com/" class="icon-color fas fa-envelope"></a>
+          <a href="https://gmail.com/" target="_blank" class="icon-color fas fa-envelope"></a>
         </li>
         <form id="search-field" class="form-inline">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -97,6 +97,7 @@
   <div class="container">
     <!--Missing Persons  -->
     <div class="row" id="missing-people">
+
       <div class="col-md-3">
         <h2>MISSING PERSONS</h2>
         <form class="form-inline" id="missingForm">
@@ -106,8 +107,6 @@
         </form>
         <h3 id="displayResults"></h3>
       </div>
-      <!-- <div class="missingElements"> -->
-
 
       <div class="col-md-3">
         <div class="card-columns card-profile">

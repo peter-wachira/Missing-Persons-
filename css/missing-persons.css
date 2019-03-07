@@ -1,12 +1,23 @@
 .icon-color {
   color: #00BCD4;
 }
-.btn-search{
-  color:#fff;
+
+.btn-search {
+  color: #fff;
   background-color: #00BCD4;
 }
+
+.dropdown-color {
+  color: #fff;
+  background-color: rgba(0, 188, 212, 0.8);
+}
+
+.form-inline {
+  width: 100%;
+}
+
 #missing-people {
-  margin-top: 5rem;
+  margin-top: 10rem;
   border-bottom: 2px solid #BDBDBD;
   padding-bottom: 3rem;
 }

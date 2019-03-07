@@ -84,7 +84,7 @@
       <div class="col-md-3">
         <h2>MISSING PERSONS</h2>
         <form class="form-inline" id="missingForm">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="missingName">
+          <input class="form-control mr-sm-2" type="search" placeholder="Enter first Name" aria-label="Search" id="missingName">
           <button class="btn  my-2 my-sm-0" type="submit" id="missingSearch">Search</button>
           <button type="button" name="button" class=" btn" id="missingClear">Clear</button>
         </form>
@@ -184,21 +184,22 @@
           </div>
         </div>
       </div>
-        <!-- </div> -->
+      <!-- </div> -->
     </div>
     <!--Found Persons  -->
     <div class="row" id="found-people">
       <div class="col-md-3">
         <h2>FOUND PERSONS</h2>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Enter First Name" aria-label="Search">
+        <form class="form-inline" id="foundForm">
+          <input class="form-control mr-sm-2" id="foundName" type="search" placeholder="Enter First Name" aria-label="Search">
           <button class="btn my-2 my-sm-0" type="submit" id="found-search">Search</button>
           <button type="button" name="button" class=" btn" id="foundClear">Clear</button>
         </form>
+        <h3 id="displayResults2"></h3>
       </div>
       <div class="col-md-3">
         <div class="card-columns card-profile">
-          <div class="card missing-column">
+          <div class="card missing-column foundElements" id="foundID1">
             <img class="card-img-top missing-img" src="images/person1.png">
             <div class="card-body">
               <p><strong>Name:</strong>MaryBeth Omar</p>
@@ -209,7 +210,7 @@
               <p><strong>Age:</strong> 22 years old</p>
             </div>
           </div>
-          <div class="card missing-column">
+          <div class="card missing-column foundElements" id="foundID2">
             <img class="card-img-top missing-img" src="images/person2.png">
             <div class="card-body">
               <p><strong>Name:</strong>Felistas Wanjoe</p>
@@ -225,7 +226,7 @@
       </div>
       <div class="col-md-3">
         <div class="card-columns card-profile">
-          <div class="card missing-column">
+          <div class="card missing-column foundElements" id="foundID3">
             <img class="card-img-top missing-img" src="images/person3.png">
             <div class="card-body">
               <p><strong>Name:</strong>Kip Mercy</p>
@@ -237,7 +238,7 @@
 
             </div>
           </div>
-          <div class="card missing-column">
+          <div class="card missing-column foundElements" id="foundID4">
             <img class="card-img-top missing-img" src="images/person4.png">
             <div class="card-body">
               <p><strong>Name:</strong>Erastus Munene</p>
@@ -253,7 +254,7 @@
       </div>
       <div class="col-md-3">
         <div class="card-columns card-profile">
-          <div class="card missing-column">
+          <div class="card missing-column foundElements" id="foundID5">
             <img class="card-img-top missing-img" src="images/person1.png">
             <div class="card-body">
               <p><strong>Name:</strong>Jim Perry</p>
@@ -265,10 +266,10 @@
 
             </div>
           </div>
-          <div class="card missing-column">
+          <div class="card missing-column foundElements" id="foundID6">
             <img class="card-img-top missing-img" src="images/person2.png">
             <div class="card-body">
-              <p><strong>Name:</strong>Jennifer Doe</p>
+              <p><strong>Name:</strong>Jennifer Wanda</p>
               <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn6"> Details</button>
             </div>
             <div class="card-body foundDetails" id="foundDetails6">
@@ -292,71 +293,74 @@
         <div class="card-columns">
           <div class="card">
             <div class="card-body ">
-                <blockquote class="quotationmark"><br>
-                  <h3>
-                    This website is great. We had given up but now we have hope after finding our brother.</h3><br>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  Faith Marylyn
-                </footer>
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  This website is great. We had given up but now we have hope after finding our brother.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Faith Marylyn
+              </footer>
 
             </div>
           </div>
           <div class="card change-bg">
             <div class="card-body ">
-                <blockquote class="quotationmark"><br>
-                  <h3>
-                    I had been looking for my husband for the longest time. A friend recommended this website and when I did we were able to finally find him.</h3><br>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  Josephine Wyatt
-                </footer>
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  I had been looking for my husband for the longest time. A friend recommended this website and when I did we were able to finally find him.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Josephine Wyatt
+              </footer>
             </div>
           </div>
           <div class="card">
             <div class="card-body change-bg ">
-                <blockquote class="quotationmark"><br>
-                  <h3>
-                    I had lost all hope in  finding my sister when she disappeared over a year ago. A was googling missing persons when i ran into this website. I decided to give it try. I am so grateful  for all the work and help they put into his search. We were able to find her in about 6 months. Now we are reunited again.
-                  </h3><br>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  Yasmin Abdirahman
-                </footer>
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  I had lost all hope in finding my sister when she disappeared over a year ago. A was googling missing persons when i ran into this website. I decided to give it try. I am so grateful for all the work and help they put into his
+                  search. We were able to find her in about 6 months. Now we are reunited again.
+                </h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Yasmin Abdirahman
+              </footer>
             </div>
           </div>
           <div class="card">
             <div class="card-body ">
-                <blockquote class="quotationmark"><br>
-                  <h3>
-                    Thanks to the website I was reunited with my daughter, after months of searching and despair, I especially loved your empathy and kindness throughout the search time. I can not quantify how grateful I am, my only hope is that you continue lighting other people's lives. Be Blessed.</h3><br>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  Peter Wachira
-                </footer>
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  Thanks to the website I was reunited with my daughter, after months of searching and despair, I especially loved your empathy and kindness throughout the search time. I can not quantify how grateful I am, my only hope is that you
+                  continue lighting other people's lives. Be Blessed.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Peter Wachira
+              </footer>
             </div>
           </div>
           <div class="card">
             <div class="card-body ">
-                <blockquote class="quotationmark"><br>
-                  <h3>
-                    This website has been very helpful in tracking my cousin. She went missing a while back but we were able to find her. Thanks a lot for your help.</h3><br>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  Sheila Tichi
-                </footer>
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  This website has been very helpful in tracking my cousin. She went missing a while back but we were able to find her. Thanks a lot for your help.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Sheila Tichi
+              </footer>
             </div>
           </div>
           <div class="card change-bg">
             <div class="card-body ">
-                <blockquote class="quotationmark" ><br>
-                  <h3>
-                    I had lost my brother on 25th December. He went outside to buy something but never came back. We tried to look for him but we could not find him. We reported him missing on this site and got feedback. We just got him back and we are grateful as a family for your help.
-                  </h3><br>
-                </blockquote>
-                <footer class="blockquote-footer">
-                  Mohammed Mwai
-                </footer>
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  I had lost my brother on 25th December. He went outside to buy something but never came back. We tried to look for him but we could not find him. We reported him missing on this site and got feedback. We just got him back and we
+                  are grateful as a family for your help.
+                </h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Mohammed Mwai
+              </footer>
             </div>
           </div>
 

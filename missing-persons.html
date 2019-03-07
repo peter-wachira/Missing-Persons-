@@ -71,7 +71,7 @@
           </li>
         </ul>
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="search" placeholder="Enter First Name" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
@@ -83,10 +83,19 @@
     <div class="row" id="missing-people">
       <div class="col-md-3">
         <h2>MISSING PERSONS</h2>
+        <form class="form-inline" id="missingForm">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="missingName">
+          <button class="btn  my-2 my-sm-0" type="submit" id="missingSearch">Search</button>
+          <button type="button" name="button" class=" btn" id="missingClear">Clear</button>
+        </form>
+        <h3 id="displayResults"></h3>
       </div>
+      <!-- <div class="missingElements"> -->
+
+
       <div class="col-md-3">
         <div class="card-columns card-profile">
-          <div class="card missing-column">
+          <div class="card missing-column missingElements" id="personID1">
             <img class="card-img-top missing-img" src="images/person1.png">
             <div class="card-body">
               <p><strong>Name:</strong>Jane Doe</p>
@@ -99,10 +108,10 @@
               <p><strong>Place of disapearance:</strong>Nairobi</p>
             </div>
           </div>
-          <div class="card missing-column">
+          <div class="card missing-column missingElements" id="personID2">
             <img class="card-img-top missing-img" src="images/person2.png">
             <div class="card-body">
-              <p><strong>Name:</strong>John Doe</p>
+              <p><strong>Name:</strong>John Dow</p>
               <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn2"> Details</button>
             </div>
             <div class="card-body personDetails " id="personDetails2">
@@ -116,10 +125,10 @@
       </div>
       <div class="col-md-3">
         <div class="card-columns card-profile">
-          <div class="card missing-column">
+          <div class="card missing-column missingElements" id="personID3">
             <img class="card-img-top missing-img" src="images/person3.png">
             <div class="card-body">
-              <p><strong>Name:</strong>Jenny Doe</p>
+              <p><strong>Name:</strong>Jenny Pow</p>
               <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn3"> Details</button>
             </div>
             <div class="card-body personDetails" id="personDetails3">
@@ -129,10 +138,10 @@
               <p><strong>Place of disapearance:</strong>Nairobi</p>
             </div>
           </div>
-          <div class="card missing-column">
+          <div class="card missing-column missingElements" id="personID4">
             <img class="card-img-top missing-img" src="images/person4.png">
             <div class="card-body">
-              <p><strong>Name:</strong>Johnny Doe</p>
+              <p><strong>Name:</strong>Johnny Test</p>
               <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn4"> Details</button>
             </div>
             <div class="card-body personDetails" id="personDetails4">
@@ -145,12 +154,12 @@
         </div>
 
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 ">
         <div class="card-columns card-profile">
-          <div class="card missing-column">
+          <div class="card missing-column missingElements" id="personID5">
             <img class="card-img-top missing-img" src="images/person1.png">
             <div class="card-body">
-              <p><strong>Name:</strong>Joe Doe</p>
+              <p><strong>Name:</strong>Joe Mel</p>
               <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn5"> Details</button>
             </div>
             <div class="card-body personDetails" id="personDetails5">
@@ -160,10 +169,10 @@
               <p><strong>Place of disapearance:</strong>Kisumu</p>
             </div>
           </div>
-          <div class="card missing-column">
+          <div class="card missing-column missingElements" id="personID6">
             <img class="card-img-top missing-img" src="images/person2.png">
             <div class="card-body">
-              <p><strong>Name:</strong>Jem Doe</p>
+              <p><strong>Name:</strong>Jem Allie</p>
               <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn6"> Details</button>
             </div>
             <div class="card-body personDetails" id="personDetails6">
@@ -175,11 +184,17 @@
           </div>
         </div>
       </div>
+        <!-- </div> -->
     </div>
     <!--Found Persons  -->
     <div class="row" id="found-people">
       <div class="col-md-3">
         <h2>FOUND PERSONS</h2>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Enter First Name" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit" id="found-search">Search</button>
+          <button type="button" name="button" class=" btn" id="foundClear">Clear</button>
+        </form>
       </div>
       <div class="col-md-3">
         <div class="card-columns card-profile">

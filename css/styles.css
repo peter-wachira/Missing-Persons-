@@ -1,14 +1,19 @@
-#navigationBar{
+/* #navigationBar{
 
   background-color: #5d5d5a;
   color: #ffa45c;
-}
+} */
 .nav-link{
-  color: #ffa45c;
+  color: #e8d3ff;
 }
 #try{
-  0fj89margin-left:123
+  margin-left:123
 }
 body{
   background-color: #fff4e3;
 }
+#last-icon{
+  margin-right: 10em;
+}
+#patanisha-icon{
+/* margin-right: 20em; */
